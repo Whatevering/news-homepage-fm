@@ -81,8 +81,12 @@ nav {
       display: none;
     }
 
-    .item:hover {
-      color: $SoftOrange;
+    .item {
+      transition: 0.2s;
+
+      &:hover {
+        color: $SoftOrange;
+      }
     }
   }
 
